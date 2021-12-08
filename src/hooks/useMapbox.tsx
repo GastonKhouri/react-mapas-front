@@ -3,7 +3,7 @@ import mapboxgl from 'mapbox-gl';
 import { v4 } from 'uuid';
 import { Subject } from 'rxjs';
 
-mapboxgl.accessToken = process.env.MAPBOXGL_APIKEY as string;
+mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_API_TOKEN as string;
 
 interface PuntoInicial {
     lng: number,
